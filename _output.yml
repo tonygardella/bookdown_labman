@@ -1,0 +1,14 @@
+bookdown::gitbook:
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li><strong><a href="./">Lab Setup</a></strong></li>
+    edit:
+      link: https://github.com/tonygard/lab_setup/edit/master/%s
+      text: "Edit"
+    sharing: no
+  css: r4ds.css
+
+bookdown::pdf_book:
+latex_engine: "xelatex"

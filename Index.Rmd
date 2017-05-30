@@ -1,0 +1,18 @@
+# Preface
+
+Getting setup on the PEcAn Servers
+
+
+<img src="PecanLogo.png" alt="PecanLogo" align="middle" style="width: 400px;"/> 
+
+This information is exclusively for members of the Dietze lab and is not for public use. 
+
+## Handy tips
+- You can make inline comments that will also be recorded as issues in the book
+- All the headers should have links (just like in the github wiki)
+
+
+This is a youtube video about PEcAn! We are fancy! Very fancy!
+
+{% youtube %}https://www.youtube.com/watch?v=E2W_Qmc5qec{% endyoutube %}
+
