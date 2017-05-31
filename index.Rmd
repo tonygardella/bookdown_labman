@@ -1,4 +1,13 @@
-# Preface
+---
+knit: "bookdown::render_book"
+title: "Dietze Lab Setup"
+author: ["Betsy Cowdery", "Tony Gardella"]
+github-repo: tonygardella/bookdown_labman
+site: bookdown::bookdown_site
+documentclass: book
+---
+
+# Preface{-}
 
 Getting setup on the PEcAn Servers
 
