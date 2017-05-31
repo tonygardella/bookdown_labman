@@ -6,6 +6,9 @@ set -e
 echo ${TRAVIS_BRANCH}
 [ "${TRAVIS_BRANCH}" != "master" ] && exit 0
 
+git config --global user.email "tonygardella@gmail.com"
+
+git config --global user.name "Tony Gardella"
 
 
 git clone https://${GITHUB_PAT}@github.com/tonygardella/bookdown_labman.git book-output
