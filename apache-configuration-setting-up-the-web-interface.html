@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Dietze Lab Setup</title>
+  <meta name="description" content="Dietze Lab Setup">
+  <meta name="generator" content="bookdown 0.4 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Dietze Lab Setup" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  <meta name="github-repo" content="tonygardella/bookdown_labman" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Dietze Lab Setup" />
+  
+  
+  
+
+<meta name="author" content="Betsy Cowdery">
+<meta name="author" content="Tony Gardella">
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="index.html">
+<link rel="next" href="installing-pecan.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Dietzelab Setup</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a><ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#handy-tips"><i class="fa fa-check"></i><b>0.1</b> Handy tips</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="apache-configuration-setting-up-the-web-interface.html"><a href="apache-configuration-setting-up-the-web-interface.html"><i class="fa fa-check"></i><b>1</b> Apache Configuration (setting up the web interface)</a><ul>
+<li class="chapter" data-level="1.1" data-path="apache-configuration-setting-up-the-web-interface.html"><a href="apache-configuration-setting-up-the-web-interface.html#configure-apache---need-sudo-permissions"><i class="fa fa-check"></i><b>1.1</b> Configure Apache - need sudo permissions</a></li>
+<li class="chapter" data-level="1.2" data-path="apache-configuration-setting-up-the-web-interface.html"><a href="apache-configuration-setting-up-the-web-interface.html#config.php"><i class="fa fa-check"></i><b>1.2</b> config.php</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="apache-configuration-setting-up-the-web-interface.html"><a href="apache-configuration-setting-up-the-web-interface.html#betsys-config.php"><i class="fa fa-check"></i><b>1.2.1</b> Betsy’s config.php</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="apache-configuration-setting-up-the-web-interface.html"><a href="apache-configuration-setting-up-the-web-interface.html#testing"><i class="fa fa-check"></i><b>1.3</b> Testing</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="installing-pecan.html"><a href="installing-pecan.html"><i class="fa fa-check"></i><b>2</b> Installing PEcAn</a><ul>
+<li class="chapter" data-level="2.1" data-path="installing-pecan.html"><a href="installing-pecan.html#setup-ssh-key-for-github"><i class="fa fa-check"></i><b>2.1</b> Setup ssh key for github</a></li>
+<li class="chapter" data-level="2.2" data-path="installing-pecan.html"><a href="installing-pecan.html#clone-your-fork-of-pecan"><i class="fa fa-check"></i><b>2.2</b> Clone Your FORK of PEcAn</a></li>
+<li class="chapter" data-level="2.3" data-path="installing-pecan.html"><a href="installing-pecan.html#first-build-of-pecan"><i class="fa fa-check"></i><b>2.3</b> First build of PEcAn</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="installing-pecan.html"><a href="installing-pecan.html#troubleshooting"><i class="fa fa-check"></i><b>2.3.1</b> Troubleshooting</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="setup-your-personal-r-library.html"><a href="setup-your-personal-r-library.html"><i class="fa fa-check"></i><b>3</b> Setup your personal R library</a><ul>
+<li class="chapter" data-level="3.1" data-path="setup-your-personal-r-library.html"><a href="setup-your-personal-r-library.html#is-this-your-first-time-setting-up-your-r-library"><i class="fa fa-check"></i><b>3.1</b> Is this your first time setting up your R library?</a></li>
+<li class="chapter" data-level="3.2" data-path="setup-your-personal-r-library.html"><a href="setup-your-personal-r-library.html#have-you-already-set-up-your-r-library"><i class="fa fa-check"></i><b>3.2</b> Have you already set up your R library?</a></li>
+<li class="chapter" data-level="3.3" data-path="setup-your-personal-r-library.html"><a href="setup-your-personal-r-library.html#troubleshooting-1"><i class="fa fa-check"></i><b>3.3</b> Troubleshooting</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="the-pecan-servers.html"><a href="the-pecan-servers.html"><i class="fa fa-check"></i><b>4</b> The PEcAn Servers</a><ul>
+<li class="chapter" data-level="4.1" data-path="the-pecan-servers.html"><a href="the-pecan-servers.html#the-structure-of-the-servers"><i class="fa fa-check"></i><b>4.1</b> The structure of the servers</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Dietze Lab Setup</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="apache-configuration-setting-up-the-web-interface" class="section level1">
+<h1><span class="header-section-number">1</span> Apache Configuration (setting up the web interface)</h1>
+<div id="configure-apache---need-sudo-permissions" class="section level2">
+<h2><span class="header-section-number">1.1</span> Configure Apache - need sudo permissions</h2>
+<pre><code># become root (so get Betsy or Mike)
+sudo -s
+
+# get index page
+rm /var/www/html/index.html
+ln -s /home/carya/pecan/documentation/index_vm.html /var/www/html/index.html
+
+# fix selinux context (does this need to be done after PEcAn is installed?) ??? - What is this?
+chcon -R -t httpd_sys_content_t /home/carya/pecan /home/carya/output
+
+# In /etc/httpd/conf.d
+
+make a new file pecan_USERNAME
+
+Alias /pecan /home/carya/pecan/web
+&lt;Directory /home/carya/pecan/web&gt;
+  DirectoryIndex index.php
+  Options +ExecCGI
+  Require all granted
+&lt;/Directory&gt;
+
+
+a2enconf pecan ????
+/etc/init.d/httpd restart
+
+# done as root
+exit
+</code></pre>
+</div>
+<div id="config.php" class="section level2">
+<h2><span class="header-section-number">1.2</span> config.php</h2>
+<p>Copy <code>pecan/web/config.example.php</code> to <code>pecan/web/config.php</code>and fill in your personal configurations</p>
+<div id="betsys-config.php" class="section level3">
+<h3><span class="header-section-number">1.2.1</span> Betsy’s config.php</h3>
+<p>This is what Betsy has in her config.php - you can see the sections she changed to inform the way you customize your config.php</p>
+<p><strong>Bety configuration</strong></p>
+<pre><code># Information to connect to the BETY database
+$db_bety_type=&quot;pgsql&quot;;
+$db_bety_hostname=&quot;psql-pecan.bu.edu&quot;;
+$db_bety_username=&quot;bety&quot;;
+$db_bety_password=&quot;bety&quot;;
+$db_bety_database=&quot;bety&quot;;</code></pre>
+<p><strong>FIA configuration - not setup but can be filled in</strong></p>
+<p><strong>Browndog configuration</strong></p>
+<pre><code># browdog information
+$browndog_url=&quot;http://dap.ncsa.illinois.edu:8184/convert/&quot;;
+$browndog_username=&quot;browndog.user&quot;;
+$browndog_password=&quot;GritGin3&quot;;</code></pre>
+<p><strong>Host configuration</strong></p>
+<p>Here Betsy changed her commands to qsub, but these changes are NOT necessary, UNLESS you want to do ED runs on geo. If so, refer to instructions on setting up qsub reqests on the geo server. This does NOT need to be changed in <code>config.php</code>. You can also change these entries in the <code>pecan.xml</code> file when setting up a run through the web interface.</p>
+<pre><code># List of all host and options. The list should be the server pointing
+# to an array. The second array contains a key value pair used to 
+# configure the host. Currenly the following options are available:
+# - qsub     : if specified the jobs are launched using qsub, this can
+#              be an empty value to indicate to use default settings.
+#              If not specified jobs are run on the host itself.
+# - jobid    : regex used to parse jobid, only used if qsub specified.
+# - qstat    : command used to check if job submitted using qsub is
+#              finished.
+# - launcher : path to modellauncher, used to for a single job that
+#              consists of many smaller jobs
+# - job.sh   : any special parameters to add to the job.sh file.
+# - folder   : folder on remote machine, will add username and the
+#              workflowid to the folder name
+# - models   : any special options to add to a specific model that is 
+#              launched. This is an array of the modeltype and
+#              additional parameters for the job.sh.
+$hostlist=array($fqdn =&gt; array(),
+                &quot;geo.bu.edu&quot; =&gt; 
+                    array(&quot;qsub&quot;   =&gt; &quot;qsub -l h_rt=24:00:00 -pe omp 8 -q &#39;geo*&#39; -V -v OMP_NUM_THREADS=8 -N @NAME@ -o @STDOUT@ -e @STDERR@ -S /bin/bash&quot;,
+                          &quot;jobid&quot;  =&gt; &quot;Your job ([0-9]+) .*&quot;,
+                          &quot;qstat&quot;  =&gt; &quot;qstat -j @JOBID@ || echo DONE&quot;,
+                          &quot;job.sh&quot; =&gt; &quot;module load udunits R/R-3.0.0_gnu-4.4.6&quot;,
+                          &quot;folder&quot; =&gt; &quot;/projectnb/dietzelab/ecowdery/outputs/&quot;,
+                          &quot;models&quot; =&gt; array(&quot;ED2&quot;    =&gt; &quot;module load hdf5&quot;)));</code></pre>
+<p><strong>test-pecan specific paths</strong></p>
+<pre><code># Folder where PEcAn is installed
+$pecan_install=&quot;/home/ecowdery/R/library&quot;;
+
+# Location where PEcAn is installed, not really needed anymore
+$pecan_home=&quot;/home/ecowdery/pecan/&quot;;
+
+# Folder where the runs are stored
+$output_folder=&quot;/fs/data2/output/&quot;;
+
+# Folder where the met inputs are stored
+$input_folder=&quot;/fs/data1/pecan.data/input/&quot;;
+$dbfiles_folder=&quot;/fs/data1/pecan.data/dbfiles/&quot;;
+
+# location of BETY DB set to empty to not create links, can be both
+# relative or absolute paths or full URL&#39;s. Should point to the base
+# of BETYDB
+$betydb=&quot;http:/psql-pecan.bu.edu/bety&quot;;</code></pre>
+<p>Rebuild pecan</p>
+<pre><code>./pecan/scripts/build.sh</code></pre>
+</div>
+</div>
+<div id="testing" class="section level2">
+<h2><span class="header-section-number">1.3</span> Testing</h2>
+<p>There are two sites that should be functional:</p>
+<p>PEcAn Interface: Login with your betydb username and password</p>
+<pre><code>test-pecan.bu.edu/pecan_USERNAME</code></pre>
+<p>Rstudio: Login with your pecan servers username and password. If this doesn’t work, you need to contact Mike and ask him to add you to the dietze lab group on all the pecan servers.</p>
+<pre><code>test-pecan:8787</code></pre>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="installing-pecan.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
