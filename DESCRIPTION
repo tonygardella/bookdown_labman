@@ -1,0 +1,4 @@
+Package: lab_man
+Title:  Dietze Lab Setup
+Version: 0.1
+Imports: bookdown
