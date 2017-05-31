@@ -1,13 +1,9 @@
+
 bookdown::gitbook:
   config:
     toc:
-      collapse: section
       before: |
-        <li><strong><a href="./">Lab Setup</a></strong></li>
-    edit:
-      link: https://github.com/tonygard/lab_setup/edit/master/%s
-      text: "Edit"
-    sharing: no
-
-bookdown::pdf_book:
-latex_engine: "xelatex"
+        <li><a href="./">Dietzelab Setup</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+edit: https://github.com/tonygardella/bookdown_labman/edit/master/%s

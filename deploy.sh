@@ -5,20 +5,14 @@ set -e
 [ -z "${GITHUB_PAT}" ] && exit 0
 [ "${TRAVIS_BRANCH}" != "master" ] && exit 0
 
-BOOK_DIR=$(pwd)/_book
 
-rm -rf ~/_book
+git clone https://${GITHUB_PAT}@github.com/tonygardella/bookdown_labman.git book-output
+cd book-output
 
-mkdir ~/_book && cd ~/_book
-
-git clone -b gh-pages https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git .
-
-ls | grep -v ^bookdown[.].* | xargs rm -rf
-
-git ls-files --deleted -z | xargs -0 git rm
-
-cp -r ${BOOK_DIR}/* ./
+cp -r ../_book/* ./
 
 git add --all *
-git commit -m"update book (travis build ${TRAVIS_BUILD_NUMBER})"
-git push -q -f origin gh-pages
+
+git commit -m"Update the book" || true
+
+git push -q origin master
