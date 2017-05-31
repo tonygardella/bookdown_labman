@@ -13,5 +13,5 @@ ls | grep -v ^bookdown[.].* | xargs rm -rf
 git ls-files --deleted -z | xargs -0 git rm
 cp -r ${BOOK_DIR}/* ./
 git add --all *
-git commit -m"update homepage (travis build ${TRAVIS_BUILD_NUMBER})"
+git commit -m"update book (travis build ${TRAVIS_BUILD_NUMBER})"
 git push -q -f origin gh-pages
