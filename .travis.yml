@@ -1,0 +1,13 @@
+language: R
+cache:
+  packages: true
+  directories:
+  - _book
+
+addons:
+  apt:
+    packages:
+      - libxml2-dev
+
+script:
+  - make
