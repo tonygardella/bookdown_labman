@@ -1,3 +1,7 @@
-#html files
 _book/
 .Rproj.user
+.Rhistory
+.RData
+_publish.R
+_bookdown_files
+rsconnect
