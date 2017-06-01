@@ -1,7 +1,7 @@
 ---
 knit: "bookdown::render_book"
 title: "Dietze Lab Setup"
-author: ["Betsy Cowdery", "Tony Gardella"]
+author: ["Dietze Lab"]
 github-repo: tonygardella/bookdown_labman
 site: bookdown::bookdown_site
 documentclass: book
