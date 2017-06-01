@@ -5,5 +5,6 @@ rmd_file: [
   "the_pecan_servers.Rmd",
   "r_libraries.Rmd",
   "Install_pecan.Rmd",
-  "apache_configuration.Rmd"
+  "apache_configuration.Rmd",
+  "tutorials.Rmd"
 ]
