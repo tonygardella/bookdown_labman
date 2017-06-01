@@ -29,7 +29,7 @@ git clone git@github.com:PecanProject/bcow.git
 
 ```
 cd pecan
-./scripts/build.sh --dependencies 
+make 
 ```
 
 Every time you make changes to the PEcAn code you will need to rebuild. However, you won't need to rebuild dependencies. 
