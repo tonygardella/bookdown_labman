@@ -3,7 +3,6 @@
 set -e
 
 [ -z "${GITHUB_PAT}" ] && exit 0
-echo ${TRAVIS_BRANCH}
 [ "${TRAVIS_BRANCH}" != "master" ] && exit 0
 
 git config --global user.email "tonygardella@gmail.com"
@@ -11,13 +10,13 @@ git config --global user.email "tonygardella@gmail.com"
 git config --global user.name "Tony Gardella"
 
 
-git clone https://${GITHUB_PAT}@github.com/tonygardella/bookdown_labman.git book-output
-cd book-output
-
-cp -r ../_book/* ./
-
+BOOK_DIR=$(pwd)/_book
+rm -rf ~/_book
+mkdir ~/_book && cd ~/_book
+git clone -b gh-pages https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git .
+ls | grep -v ^bookdown[.].* | xargs rm -rf
+git ls-files --deleted -z | xargs -0 git rm
+cp -r ${BOOK_DIR}/* ./
 git add --all *
-
-git commit -m "Update the book" || true
-
-git push -q origin master
+git commit -m"update homepage (travis build ${TRAVIS_BUILD_NUMBER})"
+git push -q -f origin gh-pages

@@ -4,3 +4,4 @@
 _publish.R
 _bookdown_files
 rsconnect
+_book/*

@@ -1,7 +1,7 @@
 new_session: yes
 
 rmd_file: [
-  "Index.Rmd",
+  "index.Rmd",
   "the_pecan_servers.Rmd",
   "r_libraries.Rmd",
   "Install_pecan.Rmd",
